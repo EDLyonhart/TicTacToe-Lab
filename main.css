@@ -1,4 +1,22 @@
+body {
+	background-color: Ivory;
+}
+
+h1 {
+	text-align: center;
+	color: Coral;
+}
+h2 {
+	text-align: center;
+	color: Coral;
+}
+h3 {
+	text-align: center;
+	color: Coral;
+}
+
 .unUsedSquare {
+	background-color: white;
 	height: 190px;
 	line-height: 190px;
 	border: 1px solid black;
@@ -6,4 +24,18 @@
 	margin: 5px;
 	text-align: center;
 	font-size: 200px;
+}
+
+.reset {
+	float: left;
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 10px;
+	font-size: 18px;
+	background: Coral;
+	color: white;
+  }
+
+.col-lg-12 {
+	margin: 15px;
 }
